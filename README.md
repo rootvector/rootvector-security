@@ -1,4 +1,4 @@
-# RootVector Labs
+# RootVector-Security
 
 This repository contains my penetration testing lab work, security research, and notes from my cybersecurity learning journey.
 
