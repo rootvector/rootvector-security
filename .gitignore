@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.key
+*.pem
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build/output
+*.exe
+*.bin
+*.o
+
+# OS/editor
+Thumbs.db
+.DS_Store
+.vscode/
