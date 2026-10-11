@@ -11,22 +11,26 @@ Build Strong fundamentals in cybersecurity, networking, cryptography, and set up
 ### Understand the CIA Traid: Confidentiality, Integrity, Availability.
 
 The CIA Triad is one of the basic concepts in cybersecurity. It consists of three main principles: Confidentiality, Integrity, and Availability. These principles help us understand what security is trying to protect in a system.
-Confidentiality
+
+#### Confidentiality
 
 Confidentiality means keeping information private and allowing only authorized users to access it. For example, a user's password or personal information should not be visible to other users.
 
 Access controls, strong passwords, and encryption are some ways to protect confidentiality.
-Integrity
+
+#### Integrity
 
 Integrity means keeping information accurate and preventing unauthorized changes. For example, if a web application stores a product price of ₹500, an unauthorized user should not be able to change it to ₹50.
 
 Access permissions, input validation, and integrity checks can help protect data from unauthorized modification.
-Availability
+
+#### Availability
 
 Availability means ensuring that systems and data are accessible when authorized users need them. For example, an online banking website should be available when customers need to use it.
 
 Regular maintenance, backups, redundancy, and protection against denial-of-service attacks can help maintain availability.
-My understanding
+
+#### My understanding
 
 The CIA Triad covers three different security goals: keeping data private, keeping it correct, and keeping services accessible. A security issue can affect one or more of these principles at the same time.
 
@@ -34,38 +38,44 @@ The CIA Triad covers three different security goals: keeping data private, keepi
 ### Explore Threat Types: Phishing, Malware, DDoS, SQL Injection, Brute Force, Ransomware.
 
 During this section, I explored some common threats that can affect computers, networks, and web applications.
-Phishing
+
+#### Phishing
 
 Phishing is a technique in which an attacker uses a fake email, message, or website to trick someone into sharing sensitive information or performing an unsafe action.
 
 For example, a fake login page may look like a legitimate service and ask users to enter their credentials.
 
 Prevention: Verify links and sender addresses, use multifactor authentication, and avoid entering credentials on suspicious websites.
-Malware
+
+#### Malware
 
 Malware is software designed to perform harmful or unauthorized activities on a computer or network. Viruses, worms, Trojans, spyware, and ransomware are examples of malware.
 
 Malware may steal information, damage files, or allow unauthorized access to a system.
 
 Prevention: Keep software updated, use trusted software sources, and avoid opening suspicious attachments.
-Distributed Denial of Service (DDoS)
+
+#### Distributed Denial of Service (DDoS)
 
 A DDoS attack attempts to make a service unavailable by overwhelming it with traffic or requests from multiple systems.
 
 For example, a website may become slow or unavailable because it is receiving more requests than it can handle.
 
 Prevention: Traffic filtering, rate limiting, monitoring, and DDoS protection services can help reduce the impact.
-SQL Injection
+
+#### SQL Injection
 
 SQL Injection (SQLi) is a web application vulnerability that occurs when untrusted input is incorrectly included in a database query. Depending on the vulnerability and database permissions, an attacker may be able to read or modify data or bypass application controls.
 
 Prevention: Use parameterized queries, validate input appropriately, and apply least-privilege permissions to database accounts.
-Brute Force
+
+#### Brute Force
 
 A brute-force attack involves repeatedly trying possible passwords or credentials until a valid combination is found. Weak and reused passwords make these attacks easier.
 
 Prevention: Use unique passwords, multifactor authentication, rate limiting, and appropriate account lockout or delay mechanisms.
-Ransomware
+
+#### Ransomware
 
 Ransomware is a type of malware that commonly encrypts files or otherwise prevents access to data and demands payment. Some attackers also threaten to publish stolen information.
 
@@ -75,21 +85,24 @@ Prevention: Maintain tested offline or isolated backups, patch systems, restrict
 ### Study Attack Vectors: Social Engineering, Wireless Attacks, Insider Threats.
 
 An attack vector is a path or method an attacker may use to reach a system, exploit a weakness, or gain unauthorized access.
-Social Engineering
+
+#### Social Engineering
 
 Social engineering involves manipulating people into revealing information, granting access, or performing actions that weaken security.
 
 For example, someone may impersonate technical support and ask an employee for their password.
 
 Prevention: Verify unusual requests independently, never share passwords, and provide security-awareness training.
-Wireless Attacks
+
+#### Wireless Attacks
 
 Wireless attacks target weaknesses in Wi-Fi networks, wireless protocols, configurations, or connected devices.
 
 Examples include attempting to exploit weak Wi-Fi passwords, using rogue access points, or intercepting traffic on an inadequately protected network.
 
 Prevention: Use modern Wi-Fi security such as WPA2-AES or WPA3, choose strong passwords, update router firmware, and avoid trusting unknown access points.
-Insider Threats
+
+#### Insider Threats
 
 An insider threat comes from someone who already has legitimate access to an organization's systems or information. This could involve intentional misuse or an accidental mistake.
 
