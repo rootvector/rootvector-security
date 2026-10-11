@@ -6,3 +6,4 @@ reports, notes, and project documentation.
 ## Internships
 
 - [ApexPlanet](./ApexPlanet/)
+- [EWB-Web](./EWB-Web/)
