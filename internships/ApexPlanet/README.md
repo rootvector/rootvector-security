@@ -8,4 +8,4 @@ Cybersecurity & Ethical Hacking Internship at ApexPlanet Software Pvt. Ltd.
 
 ## Tasks
 
-- [Task 1 — Foundations of Cybersecurity](./Task-01/)
+- [Task 1 — Foundations of Cybersecurity](./Task-01/README.md)
