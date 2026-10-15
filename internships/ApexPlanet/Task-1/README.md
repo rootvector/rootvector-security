@@ -795,3 +795,7 @@ These are official documentation or established learning resources used to study
 **Status:** Living notes — update this file as I complete the practical work and capture evidence.  
 **Repository:** [rootvector-security](https://github.com/rootvector/rootvector-security)  
 **Brand:** RootVector
+**Name:** Rohan Kakde
+
+*Note: I used ChatGPT to identify reliable, official resources for learning and reference. Since I already have a good understanding of cybersecurity and ethical hacking, and have previously prepared handwritten notes on these topics, I was able to complete this task efficiently without spending too much time on the fundamentals.*
+
